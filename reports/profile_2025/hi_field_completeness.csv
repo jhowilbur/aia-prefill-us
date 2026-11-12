@@ -1,0 +1,19 @@
+field,m25_21_practice,present_hi_all,n_hi_all,present_hi_deployed,n_hi_deployed
+hi_testing_conducted,4(b)(i) pre-deployment testing,127,445,125,227
+hi_assessment_completed,4(b)(ii) AI impact assessment (completed?),128,445,126,227
+hi_potential_impacts,4(b)(ii) impact assessment: potential impacts (free text),127,445,125,227
+hi_independent_review,4(b)(ii) impact assessment: independent review,127,445,125,227
+hi_ongoing_monitoring,4(b)(iii) ongoing monitoring,127,445,125,227
+hi_training_established,4(b)(iv) human training and assessment,127,445,125,227
+hi_failsafe_presence,4(b)(v) human oversight / fail-safe,128,445,126,227
+hi_appeal_process,4(b)(vi) remedies or appeals,128,445,126,227
+hi_public_consultation,4(b)(vii) end-user and public feedback,128,445,126,227
+problem_solved,context,390,445,227,227
+benefits,context,390,445,227,227
+system_outputs,context,390,445,227,227
+data_description,context,146,445,131,227
+link_to_data,context,12,445,5,227
+has_pii,context,153,445,133,227
+pia_url,context,35,445,34,227
+demographic_features,context,98,445,89,227
+have_ato,context,148,445,129,227

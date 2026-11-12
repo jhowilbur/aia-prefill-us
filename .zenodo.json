@@ -1,0 +1,46 @@
+{
+  "title": "aia-prefill-us: a machine-readable OMB M-25-21 AI impact-assessment form, a gap checker, and a year-over-year diff of the U.S. federal AI use-case inventories",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Wilbur Ferreira, Jonathas",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "AI impact assessment",
+    "OMB M-25-21",
+    "federal AI use case inventory",
+    "AI governance",
+    "high-impact AI",
+    "reproducibility"
+  ],
+  "description": "Licences: code MIT; docs, form structure and derived tables CC BY 4.0; quoted memo text and the source inventories are U.S. government works (17 U.S.C. 105; see NOTICE.md). Three parts: (1) the AI impact-assessment items of OMB Memorandum M-25-21, Appendix Section 4(b)(ii)(A)-(G), as a JSON Schema and a blank Markdown template, each item quoted from the memo with its page number; (2) a rule-based checker that lists blank items, placeholder and duplicated text, items still in progress, a missing risk-acceptance signature and a high-impact downgrade without a written reason in one filled assessment; (3) a deterministic comparison of the public 2024 and 2025 federal AI use-case inventories that flags status downgrades, practice fields that went from filled to blank, and cases with no match, with the match rate reported. Outputs are lists of items needing attention, not compliance ratings. No model is used and no accuracy is claimed.",
+  "version": "1.1.0",
+  "language": "eng",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/jhowilbur/aia-prefill-us/tree/v1.1.0",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/jhowilbur/aia-prefill-canada/tree/v1.0.0",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/ombegov/2025-Federal-Agency-AI-Use-Case-Inventory/tree/06c7ebeef5b376524211042bd9673b2a7fefd3e3",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/ombegov/2024-Federal-AI-Use-Case-Inventory/tree/4a29d132291261d4829b187acd8af618e7295294",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Not a compliance rating. No model has been trained or evaluated, and no accuracy is reported."
+}

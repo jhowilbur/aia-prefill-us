@@ -1,0 +1,8 @@
+Use Case Name,Agency,Agency Abbreviation,Stage of Development,"Is the AI use case rights-impacting, safety-impacting, both, or neither?",Has an AI impact assessment been conducted for this AI use case?,Has the AI use case been tested in operational or real-world environments?,What are the key risks from using the AI for this particular use case and how were they identified?,Has an independent evaluation of the AI use case been conducted?,Is there a process to monitor performance of the AI system?,What steps has the agency taken to consult and incorporate feedback from groups affected by this AI use case?,Is there an established fallback and escalation process for this AI use case?
+Fictional Claims Triage Model,Example Agency,EXA,Operation and Maintenance,Rights-Impacting,Yes,Yes,Secret-free risk text alpha,Yes,Yes,Other,Yes
+Fictional Mail Sorter (MS),Example Agency,EXA,Operation and Maintenance,Both,Yes,Yes,risk text beta,Yes,Yes,Other,Yes
+Fictional Duplicate Name,Example Agency,EXA,Initiated,Neither,,,,,,,
+Fictional Duplicate Name,Example Agency,EXA,Initiated,Neither,,,,,,,
+Fictional Retired Chatbot,Example Agency,EXA,Retired,Safety-impacting,No,,,,,,
+Fictional Grant Screener,Test Office,TST,Initiated,Neither,N/A,,,,,,
+Fictional Café ’Quote’ Model,Test Office,TST,Initiated,Neither,,,,,,,

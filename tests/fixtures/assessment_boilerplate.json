@@ -1,0 +1,21 @@
+{
+  "_note": "FICTIONAL example for tests. No real agency, system or person.",
+  "header": {
+    "agency": "Example Agency (fictional)",
+    "use_case_id": "EXA-0003",
+    "use_case_name": "Fictional chatbot for appointment questions",
+    "development_stage": "Deployed",
+    "high_impact_status": "High-impact",
+    "high_impact_justification": "",
+    "assessment_date": "2027-03-01"
+  },
+  "items": {
+    "A": {"status": "complete", "answer": "The agency has assessed this item in accordance with applicable law and policy and found the risks acceptable."},
+    "B": {"status": "complete", "answer": "The agency has assessed this item in accordance with applicable law and policy and found the risks acceptable."},
+    "C": {"status": "complete", "answer": "The agency has assessed this item in accordance with applicable laws and policies and found the risk acceptable."},
+    "D": {"status": "complete", "answer": "reassessment scheduling and procedures, supported by schedules for periodic reassessments as well as reassessment requirements following significant modifications to an underlying AI system"},
+    "E": {"status": "complete", "answer": "Costs are within the existing contract; no new funds."},
+    "F": {"status": "complete", "answer": "The agency has assessed this item in accordance with applicable law and policy and found the risks acceptable."},
+    "G": {"status": "complete", "answer": "Accepted by the system owner.", "signatory_title": "System owner (fictional)", "signature_date": "2027-03-02"}
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "n_rows": 3611,
+  "n_columns": 36,
+  "columns": [
+    "agency",
+    "agency_name",
+    "id",
+    "use_case_name",
+    "agency_bureau",
+    "contact_email",
+    "is_withheld",
+    "development_stage",
+    "is_high_impact",
+    "HI_justification",
+    "topic_area",
+    "classification",
+    "problem_solved",
+    "benefits",
+    "system_outputs",
+    "operational_date",
+    "contracting_usage",
+    "vendor_name",
+    "have_ato",
+    "system_name_ato",
+    "data_description",
+    "link_to_data",
+    "has_pii",
+    "pia_url",
+    "demographic_features",
+    "has_custom_code",
+    "code_url",
+    "hi_testing_conducted",
+    "hi_assessment_completed",
+    "hi_potential_impacts",
+    "hi_independent_review",
+    "hi_ongoing_monitoring",
+    "hi_training_established",
+    "hi_failsafe_presence",
+    "hi_appeal_process",
+    "hi_public_consultation"
+  ],
+  "n_agencies": 41,
+  "rows_with_id": 2907,
+  "distinct_nonblank_ids": 2892,
+  "development_stage": {
+    "Pre-deployment": 1479,
+    "Deployed": 1040,
+    "Pilot": 440,
+    "": 338,
+    "Retired": 314
+  },
+  "deployed_plus_pilot": 1480,
+  "is_high_impact": {
+    "Not High-impact": 2630,
+    "High-impact": 445,
+    "": 426,
+    "Presumed High-Impact, but Not High-impact": 110
+  },
+  "high_impact": 445,
+  "high_impact_by_stage": {
+    "Deployed": 227,
+    "Pre-deployment": 140,
+    "Retired": 55,
+    "Pilot": 23
+  },
+  "high_impact_by_agency": {
+    "VA": 215,
+    "DOJ": 114,
+    "DHS": 55,
+    "DOE": 29,
+    "SSA": 9,
+    "NCUA": 5,
+    "TREAS": 4,
+    "USDA": 4,
+    "STATE": 3,
+    "EPA": 2,
+    "HHS": 2,
+    "DOL": 1,
+    "FDIC": 1,
+    "NASA": 1
+  },
+  "high_impact_deployed": 227,
+  "hi_value_counts_deployed": {
+    "hi_testing_conducted": {
+      "": 102,
+      "In-progress": 81,
+      "Yes": 44
+    },
+    "hi_assessment_completed": {
+      "": 101,
+      "In-progress": 90,
+      "Yes": 36
+    },
+    "hi_independent_review": {
+      "": 102,
+      "In-progress": 89,
+      "CAIO Review": 31,
+      "Internal Independent Review": 4,
+      "Oversight Board Review": 1
+    },
+    "hi_ongoing_monitoring": {
+      "": 102,
+      "In-progress": 85,
+      "Yes - Monitoring Established": 40
+    },
+    "hi_training_established": {
+      "": 102,
+      "Training In-progress": 81,
+      "Training Established": 41,
+      "b) Development of monitoring protocols is in-progess": 2,
+      "a) Yes, sufficient monitoring protocols have been established": 1
+    },
+    "hi_failsafe_presence": {
+      "": 101,
+      "In-progress": 81,
+      "Yes": 35,
+      "Not Applicable": 10
+    },
+    "hi_appeal_process": {
+      "": 101,
+      "Appeal Process In-progress": 78,
+      "Not Applicable": 28,
+      "Appeal Process Established": 16,
+      "Appeal Precluded by Law": 4
+    },
+    "hi_public_consultation": {
+      "[]": 101,
+      "['In-progress']": 80,
+      "['Other']": 22,
+      "['Usability Testing']": 11,
+      "(value over 80 characters, not shown)": 7,
+      "['Public Feedback Solicitations']": 3,
+      "['a) Direct usability testing', 'd) Other']": 2,
+      "['Establishment of an appropriate appeal process is in-progress']": 1
+    }
+  },
+  "completeness_hi_all": {
+    "hi_testing_conducted": {
+      "present": 127,
+      "n": 445
+    },
+    "hi_assessment_completed": {
+      "present": 128,
+      "n": 445
+    },
+    "hi_potential_impacts": {
+      "present": 127,
+      "n": 445
+    },
+    "hi_independent_review": {
+      "present": 127,
+      "n": 445
+    },
+    "hi_ongoing_monitoring": {
+      "present": 127,
+      "n": 445
+    },
+    "hi_training_established": {
+      "present": 127,
+      "n": 445
+    },
+    "hi_failsafe_presence": {
+      "present": 128,
+      "n": 445
+    },
+    "hi_appeal_process": {
+      "present": 128,
+      "n": 445
+    },
+    "hi_public_consultation": {
+      "present": 128,
+      "n": 445
+    },
+    "problem_solved": {
+      "present": 390,
+      "n": 445
+    },
+    "benefits": {
+      "present": 390,
+      "n": 445
+    },
+    "system_outputs": {
+      "present": 390,
+      "n": 445
+    },
+    "data_description": {
+      "present": 146,
+      "n": 445
+    },
+    "link_to_data": {
+      "present": 12,
+      "n": 445
+    },
+    "has_pii": {
+      "present": 153,
+      "n": 445
+    },
+    "pia_url": {
+      "present": 35,
+      "n": 445
+    },
+    "demographic_features": {
+      "present": 98,
+      "n": 445
+    },
+    "have_ato": {
+      "present": 148,
+      "n": 445
+    }
+  },
+  "completeness_hi_deployed": {
+    "hi_testing_conducted": {
+      "present": 125,
+      "n": 227
+    },
+    "hi_assessment_completed": {
+      "present": 126,
+      "n": 227
+    },
+    "hi_potential_impacts": {
+      "present": 125,
+      "n": 227
+    },
+    "hi_independent_review": {
+      "present": 125,
+      "n": 227
+    },
+    "hi_ongoing_monitoring": {
+      "present": 125,
+      "n": 227
+    },
+    "hi_training_established": {
+      "present": 125,
+      "n": 227
+    },
+    "hi_failsafe_presence": {
+      "present": 126,
+      "n": 227
+    },
+    "hi_appeal_process": {
+      "present": 126,
+      "n": 227
+    },
+    "hi_public_consultation": {
+      "present": 126,
+      "n": 227
+    },
+    "problem_solved": {
+      "present": 227,
+      "n": 227
+    },
+    "benefits": {
+      "present": 227,
+      "n": 227
+    },
+    "system_outputs": {
+      "present": 227,
+      "n": 227
+    },
+    "data_description": {
+      "present": 131,
+      "n": 227
+    },
+    "link_to_data": {
+      "present": 5,
+      "n": 227
+    },
+    "has_pii": {
+      "present": 133,
+      "n": 227
+    },
+    "pia_url": {
+      "present": 34,
+      "n": 227
+    },
+    "demographic_features": {
+      "present": 89,
+      "n": 227
+    },
+    "have_ato": {
+      "present": 129,
+      "n": 227
+    }
+  },
+  "hi_potential_impacts_chars_deployed": {
+    "n": 125,
+    "median": 134,
+    "under_100_chars": 9
+  },
+  "source_sha256": "a62721202ca4b110ce3c53ffdb688d05ad27a35971a7afda4f1179b2493e31d0"
+}

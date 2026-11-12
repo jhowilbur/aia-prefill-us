@@ -1,0 +1,5 @@
+# Upstream files re-downloaded from the OMB repository stay local (they include contact e-mails).
+data/raw/
+__pycache__/
+*.pyc
+.DS_Store

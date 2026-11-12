@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "aia-prefill-us: a machine-readable OMB M-25-21 AI impact-assessment form, a gap checker, and a year-over-year diff of the U.S. federal AI use-case inventories"
+type: software
+authors:
+  - given-names: Jonathas
+    family-names: Wilbur Ferreira
+    affiliation: "Independent Researcher"
+license:
+  - MIT
+  - CC-BY-4.0
+version: "1.1.0"
+date-released: "2026-11-12"
+repository-code: "https://github.com/jhowilbur/aia-prefill-us"
+references:
+  - type: software
+    title: "aia-prefill-canada"
+    version: "1.0.0"
+    authors:
+      - given-names: Jonathas
+        family-names: Wilbur Ferreira
+    url: "https://github.com/jhowilbur/aia-prefill-canada/tree/v1.0.0"
+keywords:
+  - AI impact assessment
+  - OMB M-25-21
+  - federal AI use case inventory
+  - AI governance
+  - high-impact AI
+  - reproducibility

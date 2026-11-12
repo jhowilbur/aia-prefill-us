@@ -1,0 +1,73 @@
+{
+  "old_format": "2024",
+  "new_format": "2025",
+  "old_rows": 2133,
+  "new_rows": 3611,
+  "old_rows_with_id": 0,
+  "new_rows_with_id": 2907,
+  "matched": 1167,
+  "match_methods": {
+    "exact_name": 1121,
+    "fuzzy_name": 46
+  },
+  "match_rate_old": 0.5471,
+  "match_rate_new": 0.3232,
+  "old_hi_categories": {
+    "not": 1722,
+    "high": 351,
+    "blank": 39,
+    "other": 21
+  },
+  "new_hi_categories": {
+    "blank": 426,
+    "high": 445,
+    "presumed_not": 110,
+    "not": 2630
+  },
+  "old_high": 351,
+  "old_high_matched": 216,
+  "downgraded": 29,
+  "downgraded_by_new_category": {
+    "presumed_not": 12,
+    "not": 17
+  },
+  "downgraded_presumed_not_without_justification": 0,
+  "blanked_field_instances": 473,
+  "blanked_cases": 86,
+  "blanked_by_field": {
+    "impact_assessment": 75,
+    "testing": 73,
+    "risks_or_impacts": 51,
+    "independent_review": 54,
+    "monitoring": 72,
+    "consultation": 78,
+    "appeal": 70
+  },
+  "blanked_cases_new_high_deployed": 4,
+  "disappeared": 966,
+  "disappeared_old_high": 135,
+  "practice_columns_old": {
+    "impact_assessment": true,
+    "testing": true,
+    "risks_or_impacts": true,
+    "independent_review": true,
+    "monitoring": true,
+    "consultation": true,
+    "appeal": true
+  },
+  "practice_columns_new": {
+    "impact_assessment": true,
+    "testing": true,
+    "risks_or_impacts": true,
+    "independent_review": true,
+    "monitoring": true,
+    "consultation": true,
+    "appeal": true
+  },
+  "params": {
+    "fuzzy_min_ratio": 0.9,
+    "fuzzy_min_chars": 10
+  },
+  "old_file": "2024_consolidated_ai_inventory_raw_v2.csv",
+  "new_file": "2025_individually_reported_AI_use_cases.csv"
+}

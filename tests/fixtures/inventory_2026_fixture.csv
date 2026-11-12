@@ -1,0 +1,6 @@
+﻿agency,agency_name,id,use_case_name,contact_email,development_stage,is_high_impact,HI_justification,hi_testing_conducted,hi_assessment_completed,hi_potential_impacts,hi_independent_review,hi_ongoing_monitoring,hi_training_established,hi_failsafe_presence,hi_appeal_process,hi_public_consultation
+EXA,Example Agency,EXA-1,Renamed Fictional Triage,x@example.invalid,Deployed,Not High-impact,,Yes,Yes,,In-progress,,Training Established,Yes,Appeal Process Established,[]
+EXA,Example Agency,EXA-2,Fictional Mail Sorter,x@example.invalid,Deployed,"Presumed High-Impact, but Not High-impact",,,,,,,,,,[]
+EXA,Example Agency,EXA-3,Fictional Duplicate Name,,Pilot,Not High-impact,,,,,,,,,,[]
+TST,Test Office,TST-9,Fictional Grant Screener,,Pre-deployment,Not High-impact,,,,,,,,,,[]
+TST,Test Office,TST-10,Fictional Cafe Quote Model,,Pre-deployment,Not High-impact,,,,,,,,,,[]

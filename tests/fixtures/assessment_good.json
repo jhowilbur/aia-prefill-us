@@ -1,0 +1,21 @@
+{
+  "_note": "FICTIONAL example for tests. No real agency, system or person.",
+  "header": {
+    "agency": "Example Agency (fictional)",
+    "use_case_id": "EXA-0001",
+    "use_case_name": "Fictional benefits-claim triage assistant",
+    "development_stage": "Pre-deployment",
+    "high_impact_status": "High-impact",
+    "high_impact_justification": "",
+    "assessment_date": "2027-01-15"
+  },
+  "items": {
+    "A": {"status": "complete", "answer": "The model ranks incoming claims by likely missing documents so staff can request them earlier. Baseline: a median of 41 days to first contact in the current manual process (agency workload report, fictional). Target: under 20 days, measured monthly on all claims."},
+    "B": {"status": "complete", "answer": "Training data are three years of closed claim files with document checklists; 2 percent of records were dropped for missing outcomes. The data include age and disability status, which are protected classes; neither is a model input. The dataset will not be released as an open government data asset because it holds personal records."},
+    "C": {"status": "complete", "answer": "Risk: claimants whose files resemble rare claim types may be ranked low and wait longer. Mitigation: no claim can be closed or denied by the tool; every claim keeps its place in the manual queue. Privacy impacts are covered by the system's existing PIA. Not using the tool keeps current delays."},
+    "D": {"status": "complete", "answer": "Reassessment every 12 months and after any retraining, new data source, or change in claim types covered. Each reassessment repeats the subgroup wait-time comparison from pre-deployment testing."},
+    "E": {"status": "complete", "answer": "Direct costs: one analyst at half time and existing cloud hosting. Expected savings: fewer follow-up letters, estimated from the pilot once measured; no savings are claimed before then."},
+    "F": {"status": "complete", "answer": "Reviewed by the agency's evaluation office, which did not build the tool. Concern raised: wait times for claimants over 75 were not reported separately. Response: added as a monitored subgroup. The full comments are attached and were shared with the risk owner."},
+    "G": {"status": "complete", "answer": "Risk accepted for a 12-month deployment, subject to the monitoring in item D.", "signatory_title": "Deputy Administrator for Benefits (fictional)", "signature_date": "2027-02-01"}
+  }
+}
